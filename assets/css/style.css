@@ -1,0 +1,393 @@
+@font-face {
+    font-family: "urbanist-regular";
+    src: url(../font/Urbanist-Regular.ttf);
+}
+
+@font-face {
+    font-family: "urbanist-black";
+    src: url(../font/Urbanist-Black.ttf);
+}
+
+@font-face {
+    font-family: "urbanist-bold";
+    src: url(../font/Urbanist-Bold.ttf);
+}
+
+@font-face {
+    font-family: "urbanist-light";
+    src: url(../font/Urbanist-Light.ttf);
+}
+
+@font-face {
+    font-family: "ubuntu-regular";
+    src: url(../font/Ubuntu-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1400px;
+    overflow-x: hidden;
+}
+
+.center-header {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    font-family: "urbanist-regular";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 0.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+}
+
+a:hover {
+    font-family: "urbanist-black";
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.landingpage {
+    background-image: url(../img/Ilustration_Header\ 1.png);
+    width: 100%;
+    height: 43rem;
+    background-repeat: no-repeat;
+    margin: 5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "urbanist-black";
+    font-size: 7rem;
+    padding-top: 16.8rem;
+    margin-left: -38rem;
+    width: 30rem;
+    line-height: 6rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+    width: 42rem;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "urbanist-bold";
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 6rem;
+    background-color: white;
+    padding: 0.5rem;
+    box-shadow: inset -0.1rem -0.1rem grey;
+}
+
+
+.camper-mieten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-family: "urbanist-black";
+    font-size: 2rem;
+}
+
+.campermietenp{
+    margin: 2rem;
+    width: 30rem;
+    text-align: center;
+    font-family: "urbanist-regular";
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    height: 18rem;
+}
+
+.card {
+    border: solid 1px;
+    border-radius: 1rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: inset -0.1rem -0.1rem grey;
+}
+
+h3 {
+    font-family: "urbanist-bold";
+}
+
+.card p {
+    font-family: "urbanist-light";
+    width: 9rem;
+    margin: 1rem;
+}
+
+.bg-green {
+    background-color: #a9cba6;
+    color: white;
+}
+
+.wahl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+    padding-top: 2.6rem;
+    background-image: url(../img/Background\ Bulb.png);
+    background-repeat: no-repeat;
+}
+
+.wahlp {
+    margin-top: 2rem;
+    width: 30rem;
+    font-size: "urbanist-regular";
+    text-align: center;
+}
+
+.vancards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.vancards button {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.vancards .bg-green {
+    margin-bottom: 0.8rem;
+}
+
+.vancard {
+    border: solid 1px;
+    border-radius: 3rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0cea0;
+    box-shadow: inset -0.2rem -0.2rem rgb(172, 151, 121);
+}
+
+.card-header {
+    border-radius: 3rem 3rem 0 0;
+    background-color: white;
+    border-style: solid 1px;
+}
+
+.card-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.infos {
+    margin-left: -5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+.infos img {
+
+    height: 1.5rem;
+}
+
+span {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+footer {
+    margin-top: 14.8rem;
+    border-top: 2px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 4rem;
+    margin: 2rem;
+}
+
+footer a {
+    font-family: "ubuntu-regular";
+}
+
+footer img {
+    margin: 1.5rem 1rem;
+}
+
+.links {
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 400px;
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        flex-direction: space-between;
+        height: 55px;
+        width: 380px;
+    }
+
+    .burgers {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 30px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .burger {
+        width: 100%;
+        height: 5px;
+        background-color: #000;
+        margin: 3px;
+        border-radius: 3px;
+
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .vancards {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .landingpage {
+        height: 180px;
+        width: 350px;
+        background-size: cover;
+        margin: 0;
+    }
+    h1 {
+        font-size: 30px;
+        padding-top: 70px;
+        margin-left: -120px;
+        width: 120px;
+        line-height: 35px    
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+    .query {
+        height: 350px;
+    }
+
+    .campermietenp{
+        margin: 2rem;
+        width: 290px;
+        text-align: center;
+        font-family: "urbanist-regular";
+    }
+
+    .camper-mieten {
+        height: 1800px;
+    }
+
+    .wahl {
+        background: none;
+    }
+
+    .wahlp {
+        width: 300px;
+    }
+
+    .querybutton {
+        margin-top: 1200px;
+    }
+
+    .wahl p {
+        font-family: "urbanist-regular";
+        text-align: center;
+        margin-top: 10px;
+        line-height: 15px;
+    }
+
+    .footer-nav{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+
+    h2 {
+        width: 350px;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .vancard p{
+        text-align: left;
+        width: 220px;
+        line-height: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
